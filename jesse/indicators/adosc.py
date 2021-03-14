@@ -17,6 +17,7 @@ def adosc(candles: np.ndarray, fast_period: int = 3, slow_period: int = 10, sequ
     :param sequential: bool - default=False
 
     :return: float | np.ndarray
+    // TEST!
     """
     candles = slice_candles(candles, sequential)
 
